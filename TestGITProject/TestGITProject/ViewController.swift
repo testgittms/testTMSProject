@@ -13,8 +13,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let a = 0
+        let b = 14
         
-        if a > 12 {
+        if a * b > 12 {
             print("123")
         }
     }
