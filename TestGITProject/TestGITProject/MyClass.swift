@@ -6,11 +6,3 @@
 //
 
 import Foundation
-
-class MyClass {
-    
-}
-
-https://testgittms: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@github.com/testgittms/testTMSProject.git
-
-
