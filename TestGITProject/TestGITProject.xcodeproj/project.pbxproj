@@ -18,6 +18,8 @@
 		9D17FE8328355CE30076DA8C /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FE8228355CE30076DA8C /* Tab1ViewController.swift */; };
 		9D17FE8528355CEF0076DA8C /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FE8428355CEF0076DA8C /* Tab2ViewController.swift */; };
 		9D17FE8728355CFB0076DA8C /* Tab3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FE8628355CFB0076DA8C /* Tab3ViewController.swift */; };
+		9D17FE90283578270076DA8C /* TabTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FE8F283578270076DA8C /* TabTest.swift */; };
+		9D17FE92283578550076DA8C /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FE91283578550076DA8C /* Bit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		9D17FE8228355CE30076DA8C /* Tab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
 		9D17FE8428355CEF0076DA8C /* Tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
 		9D17FE8628355CFB0076DA8C /* Tab3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3ViewController.swift; sourceTree = "<group>"; };
+		9D17FE8F283578270076DA8C /* TabTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabTest.swift; sourceTree = "<group>"; };
+		9D17FE91283578550076DA8C /* Bit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Bit.swift; path = TestGITProject/Views/Bit.swift; sourceTree = SOURCE_ROOT; };
 		A0224308EC33E3896C22A4A2 /* Pods-TestGITProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGITProject.debug.xcconfig"; path = "Target Support Files/Pods-TestGITProject/Pods-TestGITProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -56,7 +60,6 @@
 				A0224308EC33E3896C22A4A2 /* Pods-TestGITProject.debug.xcconfig */,
 				283E230CF5DF01828E612747 /* Pods-TestGITProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,10 +84,9 @@
 		9D17FE67283558FC0076DA8C /* TestGITProject */ = {
 			isa = PBXGroup;
 			children = (
-				9D17FE7E28355CBD0076DA8C /* TabBar */,
+				B83D4B192835763400688464 /* Views */,
 				9D17FE68283558FC0076DA8C /* AppDelegate.swift */,
 				9D17FE6A283558FC0076DA8C /* SceneDelegate.swift */,
-				9D17FE6C283558FC0076DA8C /* ViewController.swift */,
 				9D17FE6E283558FC0076DA8C /* Main.storyboard */,
 				9D17FE71283558FE0076DA8C /* Assets.xcassets */,
 				9D17FE73283558FE0076DA8C /* LaunchScreen.storyboard */,
@@ -97,6 +99,9 @@
 		9D17FE7E28355CBD0076DA8C /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
+				9D17FE91283578550076DA8C /* Bit.swift */,
+				9D17FE8F283578270076DA8C /* TabTest.swift */,
+				9D17FE6C283558FC0076DA8C /* ViewController.swift */,
 				9D17FE8128355CD10076DA8C /* Tab3 */,
 				9D17FE8028355CCE0076DA8C /* Tab2 */,
 				9D17FE7F28355CCA0076DA8C /* Tab1 */,
@@ -126,6 +131,14 @@
 				9D17FE8628355CFB0076DA8C /* Tab3ViewController.swift */,
 			);
 			path = Tab3;
+			sourceTree = "<group>";
+		};
+		B83D4B192835763400688464 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9D17FE7E28355CBD0076DA8C /* TabBar */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		BDBF120C87E4BD5231169E9E /* Frameworks */ = {
@@ -240,6 +253,8 @@
 				9D17FE8728355CFB0076DA8C /* Tab3ViewController.swift in Sources */,
 				9D17FE6B283558FC0076DA8C /* SceneDelegate.swift in Sources */,
 				9D17FE8528355CEF0076DA8C /* Tab2ViewController.swift in Sources */,
+				9D17FE92283578550076DA8C /* Bit.swift in Sources */,
+				9D17FE90283578270076DA8C /* TabTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

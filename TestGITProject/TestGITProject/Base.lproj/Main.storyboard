@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wFR-Uy-LZG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="wFR-Uy-LZG">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,17 +24,43 @@
             </objects>
             <point key="canvasLocation" x="-149" y="216"/>
         </scene>
-        <!--Item 1-->
+        <!--Tab1 View Controller-->
         <scene sceneID="5of-Nl-8dL">
             <objects>
                 <viewController id="My3-xw-ErR" customClass="Tab1ViewController" customModule="TestGITProject" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Ov-qn-Jv9">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kur-au-lWn">
+                                <rect key="frame" x="8" y="52" width="398" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zFI-0l-rUJ">
+                                <rect key="frame" x="8" y="81" width="398" height="4"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgS-SW-VXW">
+                                <rect key="frame" x="186" y="473" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Xuy-9J-lnz"/>
-                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kur-au-lWn" firstAttribute="top" secondItem="Xuy-9J-lnz" secondAttribute="top" constant="8" id="0MO-LT-FXd"/>
+                            <constraint firstItem="zFI-0l-rUJ" firstAttribute="top" secondItem="kur-au-lWn" secondAttribute="bottom" constant="8" id="327-aC-95D"/>
+                            <constraint firstItem="Xuy-9J-lnz" firstAttribute="trailing" secondItem="zFI-0l-rUJ" secondAttribute="trailing" constant="8" id="5M7-9d-JFf"/>
+                            <constraint firstItem="kur-au-lWn" firstAttribute="leading" secondItem="Xuy-9J-lnz" secondAttribute="leading" constant="8" id="Vpy-4a-158"/>
+                            <constraint firstItem="Xuy-9J-lnz" firstAttribute="trailing" secondItem="kur-au-lWn" secondAttribute="trailing" constant="8" id="eVm-gh-32b"/>
+                            <constraint firstItem="zFI-0l-rUJ" firstAttribute="leading" secondItem="Xuy-9J-lnz" secondAttribute="leading" constant="8" id="sdj-IL-Dse"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="eyR-rd-8JU"/>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="eyR-rd-8JU"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oNp-6o-iLc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -77,9 +103,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemTealColor">
             <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
