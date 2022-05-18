@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         let b = 3
         
         if a * b > 7 {
-            print("123")
+            print("\(a * b)")
         }
     }
 
