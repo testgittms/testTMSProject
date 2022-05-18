@@ -12,11 +12,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let a = 5
-        let b = 3
+        let a = 10
+        let b = 8
         
         if a * b > 7 {
-            print("123")
+            print("567")
         }
     }
 
