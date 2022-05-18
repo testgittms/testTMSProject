@@ -14,10 +14,6 @@ class ViewController: UIViewController {
         
         let a = 0
         let b = 14
-        
-        if a * b > 12 {
-            print("123")
-        }
     }
 
 
