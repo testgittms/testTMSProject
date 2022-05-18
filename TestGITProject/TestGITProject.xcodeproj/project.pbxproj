@@ -80,6 +80,7 @@
 		9D17FE67283558FC0076DA8C /* TestGITProject */ = {
 			isa = PBXGroup;
 			children = (
+				B83D4B192835763400688464 /* ViewControllers */,
 				9D17FE7E28355CBD0076DA8C /* TabBar */,
 				9D17FE68283558FC0076DA8C /* AppDelegate.swift */,
 				9D17FE6A283558FC0076DA8C /* SceneDelegate.swift */,
@@ -125,6 +126,14 @@
 				9D17FE8628355CFB0076DA8C /* Tab3ViewController.swift */,
 			);
 			path = Tab3;
+			sourceTree = "<group>";
+		};
+		B83D4B192835763400688464 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				9D17FE6C283558FC0076DA8C /* ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		BDBF120C87E4BD5231169E9E /* Frameworks */ = {
