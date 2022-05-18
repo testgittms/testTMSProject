@@ -18,6 +18,8 @@
 		9D17FE8328355CE30076DA8C /* Tab1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FE8228355CE30076DA8C /* Tab1ViewController.swift */; };
 		9D17FE8528355CEF0076DA8C /* Tab2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FE8428355CEF0076DA8C /* Tab2ViewController.swift */; };
 		9D17FE8728355CFB0076DA8C /* Tab3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FE8628355CFB0076DA8C /* Tab3ViewController.swift */; };
+		9D17FE8A283576EC0076DA8C /* TabTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FE89283576EC0076DA8C /* TabTest.swift */; };
+		9D17FE8C283576F70076DA8C /* Bit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D17FE8B283576F70076DA8C /* Bit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		9D17FE8228355CE30076DA8C /* Tab1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab1ViewController.swift; sourceTree = "<group>"; };
 		9D17FE8428355CEF0076DA8C /* Tab2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab2ViewController.swift; sourceTree = "<group>"; };
 		9D17FE8628355CFB0076DA8C /* Tab3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab3ViewController.swift; sourceTree = "<group>"; };
+		9D17FE89283576EC0076DA8C /* TabTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTest.swift; sourceTree = "<group>"; };
+		9D17FE8B283576F70076DA8C /* Bit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bit.swift; sourceTree = "<group>"; };
 		A0224308EC33E3896C22A4A2 /* Pods-TestGITProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGITProject.debug.xcconfig"; path = "Target Support Files/Pods-TestGITProject/Pods-TestGITProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,6 +104,7 @@
 				9D17FE8128355CD10076DA8C /* Tab3 */,
 				9D17FE8028355CCE0076DA8C /* Tab2 */,
 				9D17FE7F28355CCA0076DA8C /* Tab1 */,
+				9D17FE89283576EC0076DA8C /* TabTest.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -131,7 +136,7 @@
 		B83D4B192835763400688464 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9D17FE6C283558FC0076DA8C /* ViewController.swift */,
+				9D17FE8B283576F70076DA8C /* Bit.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -248,6 +253,8 @@
 				9D17FE8728355CFB0076DA8C /* Tab3ViewController.swift in Sources */,
 				9D17FE6B283558FC0076DA8C /* SceneDelegate.swift in Sources */,
 				9D17FE8528355CEF0076DA8C /* Tab2ViewController.swift in Sources */,
+				9D17FE8C283576F70076DA8C /* Bit.swift in Sources */,
+				9D17FE8A283576EC0076DA8C /* TabTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
